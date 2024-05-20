@@ -1,0 +1,49 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; 
+    margin-top: 20px;/* Adjust padding as needed */
+  }
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    padding-left: 70px;
+    margin-bottom: 10px;
+}
+p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    margin-bottom: 10px;
+}
+  .content {
+    max-width: 800px; /* Max width of the content */
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 7;
+    padding: 30px; /* Take up remaining space */
+  }
+  
+  .profile-image {
+    width: 350px; /* Adjust image width */
+    height: 530px; /* Adjust image height */
+    border-radius: 50%; /* Make the image circular (assuming it's a profile picture) */
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .cicon {
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+  }
+  

@@ -1,0 +1,53 @@
+.education-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+  }
+  
+  .education-heading {
+    
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .current-education-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: red;
+  }
+  
+  .matrix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: inherit;
+    font-family:'Courier New', Courier, monospace;
+    
+  }
+  
+  
+  .matrix-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .matrix-cell {
+    flex: 1 1 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease , transform 0.5s ease;
+  }
+  .matrix-cell:hover {
+    background-color: #011224;
+    transform: scale(1.1);
+  }
+  

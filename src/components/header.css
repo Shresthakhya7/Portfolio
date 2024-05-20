@@ -1,0 +1,143 @@
+/* Updated styles.css */
+body{
+    background-color: rgb(201, 193, 179);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+
+/* Styling the fixed header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #211818;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure header is on top of other content */
+  }
+  
+  /* Styling the logo */
+  .logo {
+    margin: 0;
+  }
+  
+  /* Styling the navigation */
+  .navbar {
+    display: flex;
+    align-items: center;
+}
+
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  /* Styling the navigation links */
+  .navbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s; /* Smooth transition for color change */
+  }
+  
+  .navbar a:hover {
+    color: red;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s; /* Smooth transition for color change */
+  }
+  
+  .logo a:hover {
+    color: red;
+  }
+
+  /* Styling the menu icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+  /* Styling main content */
+  main {
+    padding: 70px 20px 20px; /* Adjust padding to accommodate fixed header */
+  
+  }
+  
+  /* Styling footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #211818;
+    color: #fff;
+  }
+  
+#intro{
+    border-radius: 30px;
+    background-size: 100% 100%;
+    background-image: url('assets/jeep.jpg');
+}
+#about{
+  background-image:url('assets/it.jpg');
+  background-size: 100% 100%;
+}
+
+#education{
+  background-image: url('assets/edu.jpg');
+  background-size: 100% 100%;
+  border-radius: 30px;
+}
+
+/* Media queries for responsive navigation */
+@media (max-width: 768px) {
+  .navbar ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #d36565;
+      position: absolute;
+      top: 50px; /* Adjust based on header height */
+      left: 0;
+  }
+  
+  .navbar ul.active {
+      display: flex;
+  }
+
+  .navbar li {
+      margin: 10px 0;
+      text-align: right;
+  }
+
+  .menu-icon {
+      display: flex;
+  }
+}
+
+
+
