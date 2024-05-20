@@ -99,7 +99,7 @@ body{
   
 #intro{
     border-radius: 30px;
-    background-size: 100% 100%;
+    background-size: cover;
     background-image: url('assets/jeep.jpg');
 }
 #about{
