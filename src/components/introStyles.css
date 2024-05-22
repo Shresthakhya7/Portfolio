@@ -32,26 +32,15 @@
     margin-bottom: 20px;
   }
   
- 
   
- 
-  
-  .developerType {
-    display: inline-block;
+  .type {
     transition: opacity 1s;
     color: red;
     font-size: 30px;
-    animation: slider 10s linear infinite;
-  }
+    overflow: hidden;
+}
   
-  
-  .fade-in {
-    opacity: 1;
-  }
-  
-  .fade-out {
-    opacity: 0;
-  }
+
   .name span{
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

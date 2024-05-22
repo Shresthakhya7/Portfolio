@@ -74,6 +74,7 @@
     position: relative;
 }
 .info{
+    margin-bottom: 30px;
     transition: background-color 0.5s ease , transform 0.5s ease;
 }
 .info:hover {

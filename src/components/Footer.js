@@ -3,8 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-                
+    <footer>           
       <p>&copy; Shreejan Khya Shrestha</p>
     </footer>
   );

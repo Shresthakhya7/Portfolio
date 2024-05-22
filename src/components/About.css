@@ -6,21 +6,25 @@
     margin-top: 20px;/* Adjust padding as needed */
   }
 
-h1{
+.about_content h1{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-style: inherit;
     padding-left: 70px;
     margin-bottom: 10px;
+    color: #000;
 }
-p{
+.about_content p{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-style: inherit;
     margin-bottom: 10px;
+    color: #000;
+    text-align: justify;
+    padding-right: 20px;
 }
-  .content {
+  .about_content {
     max-width: 800px; /* Max width of the content */
     display: flex;
     align-items: center;
@@ -28,10 +32,10 @@ p{
   
   .text {
     flex: 7;
-    padding: 30px; /* Take up remaining space */
+    padding: 10px; /* Take up remaining space */
   }
   
-  .profile-image {
+  .profile-pic {
     width: 350px; /* Adjust image width */
     height: 530px; /* Adjust image height */
     border-radius: 50%; /* Make the image circular (assuming it's a profile picture) */
@@ -41,9 +45,11 @@ p{
     margin-top: 20px;
   }
   
-  .cicon {
+  .icon {
     font-size: 30px;
     color: white;
     margin: 0 10px;
   }
+
+
   

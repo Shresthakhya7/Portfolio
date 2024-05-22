@@ -6,8 +6,7 @@ import './About.css'; // Import CSS for styles
 const About = () => {
   return (
     <section id="about" className="about-container">
-      <div className="content">
-        <img src={profileImage} alt="Profile" className="profile-image" />
+      <div className="about_content">
         <div className="text">
           <h1>About Me</h1>
           <p>
@@ -21,30 +20,33 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin cicon"></i>
+              <i className="fab fa-linkedin icon"></i>
             </a>
             <a
               href="https://github.com/Shresthakhya7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github cicon"></i>
+              <i className="fab fa-github icon"></i>
             </a>
             <a
               href="https://www.facebook.com/shreejan.khya7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-facebook cicon"></i>
+              <i className="fab fa-facebook icon"></i>
             </a>
             <a
               href="https://www.instagram.com/shrestha_khya7/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-instagram cicon"></i>
+              <i className="fab fa-instagram icon"></i>
             </a>
           </div>
+        </div>
+        <div className='profile-pic-container'>
+        <img src={profileImage} alt="Profile" className="profile-pic" />
         </div>
       </div>
     </section>
