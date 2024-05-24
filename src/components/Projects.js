@@ -17,7 +17,7 @@ const projects = [
     title: 'ToDo List App',
     description: 'A simple ToDo List App developed using React.js. Users can add, manage, and order their tasks according to their necessity.',
     image: todoImage,
-    link1: 'https://github.com/Shresthakhya7/todo-app',
+    link1: 'https://github.com/Shresthakhya7/todolist',
     link2: 'https://Shresthakhya7.github.io/todolist',
   },
   {
