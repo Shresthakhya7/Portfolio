@@ -34,7 +34,7 @@ const Skills = () => {
             </div>
             <div className="skill_bar">
                 <div className="info">
-                    <p>Java Script</p>
+                    <p>JavaScript</p>
                     
                 </div>
                 <div className="bar">
