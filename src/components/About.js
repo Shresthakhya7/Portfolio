@@ -34,7 +34,7 @@ const About = () => {
           </p>
           <div className="social-links">
             <a
-              href="https://www.linkedin.com/in/shreejan-khya-30016a2a9/"
+              href="https://www.linkedin.com/in/shreejan-khya-shrestha-30016a2a9/"
               target="_blank"
               rel="noopener noreferrer"
             >
