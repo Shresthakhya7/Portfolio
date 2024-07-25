@@ -30,16 +30,15 @@
   text-align: center;
   background-color: rgba(159, 70, 43, 0.884);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  max-width: 500px;
+  max-width: 400px;
+  width: 100%; /* Ensure card width is responsive */
   transition: background-color 0.5s ease, transform 0.5s ease;
   overflow: hidden;
-
 }
 
 .card:hover {
   transform: scale(1.1);
   background-color: rgba(112, 28, 2, 0.884);
-  
 }
 
 .card-head {
@@ -48,13 +47,15 @@
   margin: 10px 10px 10px 10px;
 }
 
-.card-details, .card a {
+.card-details,
+.card a {
   opacity: 0;
   max-height: 0;
   transition: opacity 0.5s ease, max-height 0.5s ease;
 }
 
-.card:hover .card-details, .card:hover a {
+.card:hover .card-details,
+.card:hover a {
   opacity: 1;
   max-height: 500px; /* Adjust based on the expected content height */
 }
@@ -73,9 +74,40 @@
   border-top-right-radius: 20px;
   margin-bottom: 10px;
 }
-.fa-edge    {
+
+.fa-edge {
   transition: transform 0.7s ease;
 }
-.fa-edge:hover{
-transform: scale(1.5);
+
+.fa-edge:hover {
+  transform: scale(1.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%; /* Adjust based on container size */
+  }
+
+  .project-image {
+    height: 150px; /* Adjust based on desired image height for smaller screens */
+  }
+
+  .p {
+    font-size: 40px; /* Decrease font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 90%; /* Adjust based on container size */
+  }
+
+  .project-image {
+    height: 100px; /* Adjust based on desired image height for smaller screens */
+  }
+
+  .p {
+    font-size: 30px; /* Decrease font size further for very small screens */
+  }
 }

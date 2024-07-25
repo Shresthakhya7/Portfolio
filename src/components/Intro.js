@@ -18,8 +18,6 @@ const Intro = () => {
           <p className="greeting">Hey!</p>
           <p className="name">I am <span>Shreejan Khya Shrestha</span>.</p>
           
-          <p className="role">
-            I want to join an internship as </p>
           
           <Type/>
           <button className="button" onClick={handleOpenPDF}>

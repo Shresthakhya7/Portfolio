@@ -1,93 +1,189 @@
+/* Base styles */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-  }
-  
-  
-  .text {
-    flex: 7;
-    padding: 30px;
-    color: rgb(236, 204, 204);
-    font-family: Arial, sans-serif;
-    transition: opacity 0.5s ease;
-  }
-  
-  .greeting {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .name {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  
-  .type {
-    transition: opacity 1s;
-    color: red;
-    font-size: 30px;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
 }
-  
 
-  .name span{
-    font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-style: oblique;
-    color:white;
-    transition: background-color 0.5s ease,transform 1.1s ease;
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 7;
+  padding: 30px;
+  color: rgb(236, 204, 204);
+  font-family: Arial, sans-serif;
+  transition: opacity 0.5s ease;
+}
+
+.greeting {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.type {
+  transition: opacity 1s;
+  color: red;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.name span {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: white;
+  transition: background-color 0.5s ease, transform 1.1s ease;
+}
+
+.name span:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+
+.imageContainer {
+  flex: 5;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#intro {
+  border-radius: 30px;
+  background-size: cover;
+  background-image: url('assets/jeep.jpg');
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 1px 5px #007bff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.5s ease, transform 1s ease;
+}
+
+.button:hover {
+  background-color: #011224;
+  transform: scale(1.1);
+}
+/* Responsive design for intro */
+@media (max-width: 1200px) {
+  .text {
+    padding: 20px;
   }
-  .name span:hover{
-    color: red;
-    transform: scale(1.5);
-    
+
+  .image {
+    max-width: 300px;
   }
-  
-  .role {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ddeaf6;
-  }
-  
-  .imageContainer {
-    flex: 5;
+}
+
+@media (max-width: 992px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
-  
+
+  .text, .imageContainer {
+    flex: 1;
+    width: 100%;
+  }
+
+  .text {
+    padding: 20px;
+  }
+
   .image {
-    width: 350px;
-    height: 530px;
-    border-radius: 50%;
+    max-width: 250px;
   }
-  
-  .button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .greeting {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .name span {
+    font-size: 24px;
+  }
+
+  .type {
+    font-size: 24px;
+  }
+
+  .role {
     font-size: 16px;
-    font-weight: bold;
-    border: none;
-    box-shadow:1px 1px 5px #007bff;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.5s ease , transform 1s ease;
   }
-  
-  .button:hover {
-    background-color: #011224;
-    transform: scale(1.1);
+
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
   }
-  
+}
+
+@media (max-width: 576px) {
+  .text {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .greeting {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .name span {
+    font-size: 20px;
+  }
+
+  .type {
+    font-size: 20px;
+  }
+
+  .role {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

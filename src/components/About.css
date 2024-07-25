@@ -1,55 +1,113 @@
 .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px; 
-    margin-top: 20px;/* Adjust padding as needed */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start */
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #583e1b, #782015);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about_content {
+  display: flex;
+  flex-direction: row; /* Arrange items in a column */
+  align-items: center;
+  text-align: center; /* Center-align the text */
+  width: 100%;
+  padding: 0 20px; /* Add some padding for smaller screens */
+}
+
+.about_content img.profile-pic {
+  width: 250px; /* Adjust image width */
+  height: 250px; /* Adjust image height */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Space between the image and heading */
+}
+
+.about_content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.about_content p {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Change to a column layout for smaller screens */
+    align-items: center; /* Center-align items */
   }
 
-.about_content h1{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: inherit;
-    padding-left: 70px;
-    margin-bottom: 10px;
-    color: #000;
-}
-.about_content p{
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: inherit;
-    margin-bottom: 10px;
-    color: #000;
-    text-align: justify;
-    padding-right: 20px;
-}
   .about_content {
-    max-width: 800px; /* Max width of the content */
-    display: flex;
-    align-items: center;
-  }
-  
-  .text {
-    flex: 7;
-    padding: 10px; /* Take up remaining space */
-  }
-  
-  .profile-pic {
-    width: 350px; /* Adjust image width */
-    height: 530px; /* Adjust image height */
-    border-radius: 50%; /* Make the image circular (assuming it's a profile picture) */
-  }
-  
-  .social-links {
-    margin-top: 20px;
-  }
-  
-  .icon {
-    font-size: 30px;
-    color: white;
-    margin: 0 10px;
+    flex-direction: column;
+    text-align: center; /* Center-align text */
+    padding: 0 20px; /* Add padding */
+    max-width: 100%; /* Take full width */
   }
 
+  .about_content h1 {
+    font-size: 26px;
+  }
 
-  
+  .about_content p {
+    font-size: 16px;
+    padding: 0 10px;
+    font-family: poppins;
+  }
+
+  .about_content img.profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_content h1 {
+    font-size: 22px;
+  }
+
+  .about_content p {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  .about_content img.profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}

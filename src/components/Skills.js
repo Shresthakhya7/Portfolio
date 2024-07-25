@@ -120,6 +120,12 @@ const Skills = () => {
         <p><span>Communication</span></p>
       </div>
       </div>
+      
+      <div className="skill-grid">
+      <div className="info">
+        <p><span>Problem Solving</span></p>
+      </div>
+      </div>
       <div className="skill-grid">
       <div className="info">
         <p><span>Teamwork</span></p>
@@ -127,7 +133,7 @@ const Skills = () => {
       </div>
       <div className="skill-grid">
       <div className="info">
-        <p><span>Problem Solving</span></p>
+        <p><span>Time Management</span></p>
       </div>
       </div>
     </div>

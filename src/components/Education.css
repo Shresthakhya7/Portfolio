@@ -50,4 +50,14 @@
     background-color: #011224;
     transform: scale(1.1);
   }
-  
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .education-heading {
+    font-size: 40px; /* Responsive font size */
+  }
+
+  .matrix-cell {
+    flex: 1 1 90%; /* Adjusted flex for smaller screens */
+  }
+}
