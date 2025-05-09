@@ -21,7 +21,7 @@ const Education = () => {
                 <div className="matrix-cell">
                   <h3>10+2</h3>
                   <p>Khwopa Secondary School</p>
-                  <p>Passed Year: 2076</p>
+                  <p>Passed Year: 2019</p>
                   <p>CGPA: 3.24</p>
                 </div>
               </div>

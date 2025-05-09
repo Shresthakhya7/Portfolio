@@ -134,14 +134,14 @@
 }
 
 .skill_bar .bar .react{
-    width: 60%;
+    width: 45%;
     animation: react 5s;
 }
 @keyframes react {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 45%;
     }
 }
 
