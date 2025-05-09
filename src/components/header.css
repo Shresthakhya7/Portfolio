@@ -1,4 +1,4 @@
-/* Updated styles.css */
+
 body{
     background-color: rgb(201, 193, 179);
 }
@@ -27,12 +27,12 @@ body{
     z-index: 1000; /* Ensure header is on top of other content */
   }
   
-  /* Styling the logo */
+ 
   .logo {
     margin: 0;
   }
   
-  /* Styling the navigation */
+  
   .navbar {
     display: flex;
     align-items: center;
@@ -48,12 +48,12 @@ body{
     margin-right: 10px;
   }
   
-  /* Styling the navigation links */
+  
   .navbar a {
     margin-right: 15px;
     text-decoration: none;
     color: white;
-    transition: color 0.5s; /* Smooth transition for color change */
+    transition: color 0.5s; 
   }
   
   .navbar a:hover {
@@ -63,7 +63,7 @@ body{
   .logo a {
     text-decoration: none;
     color: white;
-    transition: color 0.5s; /* Smooth transition for color change */
+    transition: color 0.5s;
   }
   
   .logo a:hover {
@@ -86,7 +86,7 @@ body{
 
   /* Styling main content */
   main {
-    padding: 70px 20px 20px; /* Adjust padding to accommodate fixed header */
+    padding: 70px 20px 20px; 
   
   }
   
@@ -119,7 +119,7 @@ body{
       width: 100%;
       background-color: #d36565;
       position: absolute;
-      top: 50px; /* Adjust based on header height */
+      top: 50px; 
       left: 0;
   }
   

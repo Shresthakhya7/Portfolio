@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items at the start */
+  align-items: flex-start; 
   padding: 40px 20px;
   margin-top: 20px;
 }
@@ -25,18 +25,18 @@
 
 .about_content {
   display: flex;
-  flex-direction: row; /* Arrange items in a column */
+  flex-direction: row; 
   align-items: center;
-  text-align: center; /* Center-align the text */
+  text-align: center; 
   width: 100%;
-  padding: 0 20px; /* Add some padding for smaller screens */
+  padding: 0 20px; 
 }
 
 .about_content img.profile-pic {
-  width: 250px; /* Adjust image width */
-  height: 250px; /* Adjust image height */
-  border-radius: 50%; /* Make the image circular */
-  margin-bottom: 20px; /* Space between the image and heading */
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
+  margin-bottom: 20px; 
 }
 
 .about_content h1 {
@@ -69,15 +69,15 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .about-container {
-    flex-direction: column; /* Change to a column layout for smaller screens */
-    align-items: center; /* Center-align items */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .about_content {
     flex-direction: column;
-    text-align: center; /* Center-align text */
-    padding: 0 20px; /* Add padding */
-    max-width: 100%; /* Take full width */
+    text-align: center; 
+    padding: 0 20px; 
+    max-width: 100%; 
   }
 
   .about_content h1 {

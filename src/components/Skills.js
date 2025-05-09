@@ -14,6 +14,33 @@ const Skills = () => {
         </div>
 
         <div className="skills_main">
+        <div className="skill_bar">
+                <div className="info">
+                    <p>Python</p>
+                    
+                </div>
+                <div className="bar">
+                    <span className="python"></span>
+                </div>
+            </div>
+            <div className="skill_bar">
+                <div className="info">
+                    <p>Django</p>
+                  
+                </div>
+                <div className="bar">
+                    <span className="python"></span>
+                </div>
+            </div>
+            <div className="skill_bar">
+                <div className="info">
+                    <p>Django REST framework</p>
+                  
+                </div>
+                <div className="bar">
+                    <span className="rest"></span>
+                </div>
+            </div>
             <div className="skill_bar">
                           <div className="info">
                     <p>HTML</p>
@@ -43,11 +70,11 @@ const Skills = () => {
             </div>
             <div className="skill_bar">
                 <div className="info">
-                    <p>C & C++</p>
+                    <p>OOP</p>
                     
                 </div>
                 <div className="bar">
-                    <span className="c"></span>
+                    <span className="oop"></span>
                 </div>
             </div>
             <div className="skill_bar">
@@ -59,40 +86,14 @@ const Skills = () => {
                     <span className="react"></span>
                 </div>
             </div>
+            
             <div className="skill_bar">
                 <div className="info">
-                    <p>Python</p>
+                    <p>PostgreSQl</p>
                     
                 </div>
                 <div className="bar">
-                    <span className="python"></span>
-                </div>
-            </div>
-            <div className="skill_bar">
-                <div className="info">
-                    <p>Django</p>
-                  
-                </div>
-                <div className="bar">
-                    <span className="python"></span>
-                </div>
-            </div>
-            <div className="skill_bar">
-                <div className="info">
-                    <p>Node js</p>
-                  
-                </div>
-                <div className="bar">
-                    <span className="node"></span>
-                </div>
-            </div>
-            <div className="skill_bar">
-                <div className="info">
-                    <p>Express js</p>
-                    
-                </div>
-                <div className="bar">
-                    <span className="express"></span>
+                    <span className="sql"></span>
                 </div>
             </div>
             <div className="skill_bar">

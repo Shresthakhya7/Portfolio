@@ -1,63 +1,90 @@
 .education-section {
-    text-align: center;
-    padding: 40px 20px;
-    margin-top: 20px;
-  }
-  
-  .education-heading {
-    
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .current-education-container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: red;
-  }
-  
-  .matrix {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: large;
-    font-weight: bold;
-    font-style: inherit;
-    font-family:'Courier New', Courier, monospace;
-    
-  }
-  
-  
-  .matrix-row {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .matrix-cell {
-    flex: 1 1 300px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 8px;
-    box-sizing: border-box;
-    transition: background-color 0.5s ease , transform 0.5s ease;
-  }
-  .matrix-cell:hover {
-    background-color: #011224;
-    transform: scale(1.1);
-  }
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.education-heading {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.education-experience-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.education-column,
+.experience-column {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.current-education-container {
+  color: red;
+}
+
+.matrix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.matrix-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.matrix-cell {
+  flex: 1 1 300px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.matrix-cell:hover {
+  background-color: #011224;
+  transform: scale(1.1);
+}
+
+.experience-content {
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease;
+}
+
+.experience-content:hover {
+  transform: scale(1.05);
+}
 
 @media only screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
   .education-heading {
-    font-size: 40px; /* Responsive font size */
+    font-size: 40px;
   }
 
   .matrix-cell {
-    flex: 1 1 90%; /* Adjusted flex for smaller screens */
+    flex: 1 1 90%;
+  }
+
+  .education-experience-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }

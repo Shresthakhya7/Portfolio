@@ -89,47 +89,47 @@
     border-radius: 25px;
 }
 .skill_bar .bar .html{
-    width: 90%;
+    width: 70%;
     animation: html 5s;
 }
 @keyframes html {
     0%{
         width: 0%;
     }100%{
-        width: 90%;
+        width: 70%;
     }
 }
 .skill_bar .bar .css{
-    width: 85%;
+    width: 65%;
     animation: css 5s;
 }
 @keyframes css {
     0%{
         width: 0%;
     }100%{
-        width: 85%;
+        width: 65%;
     }
 }
 .skill_bar .bar .js{
-    width: 70%;
+    width: 50%;
     animation: js 5s;
 }
 @keyframes js {
     0%{
         width: 0%;
     }100%{
-        width: 70%;
+        width: 50%;
     }
 }
-.skill_bar .bar .c{
-    width: 80%;
-    animation: c 5s;
+.skill_bar .bar .oop{
+    width: 60%;
+    animation: oop 5s;
 }
-@keyframes c {
+@keyframes oop {
     0%{
         width: 0%;
     }100%{
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -156,22 +156,22 @@
         width: 70%;
     }
 }
-.skill_bar .bar .node{
+.skill_bar .bar .rest{
     width: 30%;
-    animation: node 5s;
+    animation: rest 5s;
 }
-@keyframes node {
+@keyframes rest {
     0%{
         width: 0%;
     }100%{
         width: 30%;
     }
 }
-.skill_bar .bar .express{
+.skill_bar .bar .sql{
     width: 30%;
-    animation: express 5s;
+    animation: sql 5s;
 }
-@keyframes express {
+@keyframes sql {
     0%{
         width: 0%;
     }100%{
