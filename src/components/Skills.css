@@ -156,6 +156,17 @@
         width: 70%;
     }
 }
+.skill_bar .bar .django{
+    width: 65%;
+    animation: django 5s;
+}
+@keyframes django {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
 .skill_bar .bar .rest{
     width: 30%;
     animation: rest 5s;
@@ -179,14 +190,14 @@
     }
 }
 .skill_bar .bar .adobe{
-    width: 60%;
+    width: 30%;
     animation: adobe 5s;
 }
 @keyframes adobe {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 30%;
     }
 }
 

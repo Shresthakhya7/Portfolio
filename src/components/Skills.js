@@ -29,7 +29,7 @@ const Skills = () => {
                   
                 </div>
                 <div className="bar">
-                    <span className="python"></span>
+                    <span className="django"></span>
                 </div>
             </div>
             <div className="skill_bar">

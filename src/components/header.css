@@ -98,15 +98,11 @@ body{
     color: #fff;
   }
   
-#intro{
-    border-radius: 30px;
-    background-size: cover;
-    background-image: url('assets/jeep.jpg');
-}
+
 
 
 #education{
-  background-image: url('assets/edu.jpg');
+  /* background-image: url('assets/edu.jpg'); */
   background-size: 100% 100%;
   border-radius: 30px;
 }

@@ -19,7 +19,7 @@ const About = () => {
           I’m skilled in Python, Django, React.js, HTML, CSS, JavaScript, and familiar with REST framework, RPA, PostgreSQl, Git, and deployment practices. 
           My academic and personal projects include a movie recommendation system using collaborative filtering, a RESTful blog application, an e-commerce website, and a React-based todo list.
           A self-driven and quick learner, I thrive in collaborative environments and enjoy solving real-world problems through clean and scalable code. 
-          I’m currently seeking entry-level opportunities where I can apply my skills, contribute to impactful projects, and continue growing as a web developer.
+          I’m currently seeking entry-level opportunities where I can apply my skills, contribute to impactful projects, and continue growing as a Backend developer.
           </p>
           <div className="social-links">
             <a
